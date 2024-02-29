@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(146, 146, 77), lightgreen, rgb(206, 110, 110));
+    color: cornsilk;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.timer {
+    margin-top: 10px;
+    display: flex;
+}
+
+.timer>p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font: 700 2rem 'gill-sans';
+}
+
+span {
+    display: block;
+    font-weight: 400;
+}
